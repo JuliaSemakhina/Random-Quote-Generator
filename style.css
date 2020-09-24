@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600&display=swap');
+
+*, *::after, *::before {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #14d8f6;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 5rem auto;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Baloo Tamma 2', cursive;
+	color: #4e588e;
+}
+
+header {
+	padding: 2em;
+	margin-top: 2em;
+	text-align: center;
+	border-radius: 25px;
+}
+
+
+.quote {
+	font-size: 1.7em;
+	width: 500px;
+	line-height: 1.7rem;
+}
+
+.card {
+	text-align: center;
+}
+
+button {
+	outline: none;
+	text-align: center;
+	color: #fff;
+	background: rgba(95,158,160, 0.6);
+	height: 3rem;
+	width: 10rem;
+	margin: 1em;
+	border: none;
+	font-family: 'Baloo Tamma 2', cursive;
+	font-weight: bold;
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+	transition: background 0.3s ease-in;
+}
+
+button:hover, button:focus  {
+	background:#052474;
+	 outline: none !important;
+}
+
+#tweet-quote {
+	  border:none;
+	  border-radius:50%;
+	  background-color:#14d8f6;
+	  outline:none;
+	  color: #fff;
+	  margin-bottom: 30px;
+	  opacity:1;
+	  cursor:pointer;
+	  padding-top: 12px;
+	  text-align:center;
+	  font-size:1.6em;
+	  height:50px;
+	  width:50px;
+}
+
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 800px) {
+	.quote {
+		font-size: 1.3em;
+		width: 300px;
+		line-height: 1.2rem;
+	}
+}

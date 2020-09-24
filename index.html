@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Random Quote Generator</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<div class="container">
+	<div class="row flex-top justify-content-center">
+		<header class="border shadow">
+			<h1>Random Quote Generator</h1>
+		</header>
+	</div>
+
+	<div id="quote-box">
+
+	<div class="row flex-top justify-content-center">
+		<button id="new-quote" class="btn-large new-quote-button">New Quote</button>
+	</div>
+  	
+  	<div class="row justify-content-center">
+  		<main class="card">
+  			<div class="quote card-body center" id="newQuoteSection">
+  			<div class="quote-text">
+	      		<p><i class="fa fa-quote-left"></i> <span id="text">Life isn’t about getting and having, it’s about giving and being.</span></p>
+	      		<p><span id="author">Kevin Kruse</span></p>
+    		</div>
+    		</div>
+			<a id="tweet-quote" data-show-count="false"><i class="fab fa-twitter"></i>
+		  	</a>
+		  	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  		</main>
+  	</div>
+  	</div>
+</div>
+
+	<script defer src="script.js" defer></script>
+</body>
+</html>
